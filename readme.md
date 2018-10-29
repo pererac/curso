@@ -2,10 +2,11 @@
 
 ## inicializacion ##
 
- Instalacion de VSC
- Instalacion de Node
- Instalacion git
- Crear repositorio git init
+ - Instalacion de VSC
+ - Instalacion de Node
+ - Instalacion git
+ 
+ - Crear repositorio git init
 
 ```
 shell
