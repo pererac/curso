@@ -39,18 +39,58 @@
       <section id="form">
          <h2>Ejemplo formulario</h2>
          <form id="form1" action="" method="POST">
-               <fieldset>
-                  <legend>Datos personales</legend>
+            <fieldset>
+               <legend>Datos personales</legend>
+               <div>
                   <input type="text" name="name" id="name" placeholder="Nombre" required>
-                  <input type="password" name="passw" id="passw" placeholder="Contraseña" required>
+               </div>
+               <div>
+                  <input type="password" name="passw" id="passw" placeholder="Contraseña" required pattern="expresion regular">
+               </div>
+               <div>
                   <input type="email" name="correo" id="correo" placeholder="Correo" required>
+               </div>
+               <div>
+                  <textarea name="info" id="info" cols="30" rows="10" placeholder="información"></textarea>
+               </div>
+            </fieldset>
 
+            <fieldset>
+               <legend>Otros Datos</legend>
+               <div>
+                  <input type="checkbox" name="isOk" id="isOk">
+                  <label for="isOk"> He leido los datos....</label>
+               </div>
+               <div>
+                  <legend>Turnos</legend>
+                  <input type="radio" name="turno" id="tm" value="tm">
+                  <label for="tm">Mañana</label>
+                  <input type="radio" name="turno" id="tt" value="tt">
+                  <label for="tt">Tarde</label>
+               </div>
+               <div>
+                  <label for="destino">Destino</label>
+                  <select name="destino" id="destino">
+                     <option value="1">Madrid</option>
+                     <option value="2">Sevilla</option>
+                     <option value="3">Valencia</option>
+                  </select>
+               </div>
+               <fieldset>
+                  <legend>Aún más, menos habituales</legend>
+                  <div><input type="file" name="fichero" id="fichero"></div>
                </fieldset>
-
+            </fieldset>
+            <fieldset>
+               <legend>Fechas</legend>
+               <div>
+                  <input type="date" name="dia" id="dia">
+               </div>
+            </fieldset>
 
             <!-- <input type="submit" value="EnviarI"> -->
             <button type="submit">EnviarB</button>
-            <button >EnviarB sin submit</button>
+            <button>EnviarB sin submit</button>
             <button type="buttom">EnviarB buttom</button>
 
          </form>

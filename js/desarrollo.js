@@ -1,6 +1,6 @@
 import {sakudar } from "./sakudar.js"
-import (main) from './main.js'
-console.log("Pagina cargada");
-sakudar("Pepe");
+import (main) from "./main.js"
+console.log("Pagina cargada")
+sakudar("Pepe")
 
-document.addEventListener("DOMContentLoaded", main);
+document.addEventListener("DOMContentLoaded", main)
