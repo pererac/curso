@@ -10,7 +10,8 @@
    <title>Hola Mundo</title>
    <base href="/">
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/style.css">
    <script src="./js/desarrollo.js" type="module"></script>
    <script>
       console.log("scripts");
@@ -31,6 +32,9 @@
             <li><a href="#item3">Item 3</a></li>
             <li><a href="#form">Formulario</a></li>
             <li><a href="https://www.google.es/">Google 3</a></li>
+            <li>
+               <a href="#news">Novedades HTML5</a>
+            </li>
 
          </ol>
       </nav>
@@ -95,12 +99,18 @@
 
          </form>
       </section>
+      <section id="news">
+         <details>
+            <summary>Show/Hide me</summary>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+         </details>
+      </section>
       <section id="item1">
          <H2>Item 1</H2>
          <embed src="./assets/AJ_Digital_Camera.svg">
          <article>
             <h3>Artile 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia voluptate natus,
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia voluptate natus,
                earum quis
                voluptatum? Vel repellat vitae cumque incidunt quidem eum, hic ad repellendus ab nesciunt
                veniam
@@ -116,7 +126,7 @@
 
             </figure>
 
-            <p>Doloribus omnis debitis vitae saepe nulla, odio vero voluptas mollitia, odit est fugit
+            <p class="ultimo">Doloribus omnis debitis vitae saepe nulla, odio vero voluptas mollitia, odit est fugit
                facilis
                accusamus facere non sunt dolor! Veritatis laborum voluptate fugit adipisci molestias id
                excepturi
@@ -190,6 +200,17 @@
 
       </section>
       <a href="#inicio"></a>
+      
+      <button type="button" id="mas-info">Más info</button>
+      <dialog id="my-modal">
+          <p>It seems that we won't see native dialogs after all.</p>
+          <button id="ok-btn">OK :(</button>
+      </dialog>
+      <template id="my-template">
+          <p>Esto se hará visible desde código</p>
+      </template>
+
+
    </main>
    <aside>
 

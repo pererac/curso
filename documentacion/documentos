@@ -10,3 +10,50 @@ https://www.videosolo.com/tutorials/html5-video-converter.html
 
 atributos etiqueta video
 https://www.w3schools.com/tags/tag_video.asp
+
+
+CSS
+
+css no tiene un standard son mòdulos
+https://www.w3.org/standards/techs/css#w3c_all
+
+hay estilos que crean los navegadores que en ocasiones se incorporan al standard pero esos estilos en su nombre pueden llevar un prefijo del navegador que lo creo
+prefijo del fabricante
+Para solucionar esto se ejecutará una tarea que añada dichos prefijos
+
+Programa para diseñar
+https://prepros.io/
+
+Desde el prepro proceso el fichero y me crea un fichero tuneado
+style-dist.css
+
+
+CSS fichero
+Especificidad son los medios por los que el navegador decide qué valores de una propiedad de CSS 
+son más relevantes para un elemento y, por lo tanto, serán aplicados. La especificidad está basada 
+en las reglas que se aplican y están compuestas de diferentes formas de selectores CSS.
+
+https://developer.mozilla.org/es/docs/Web/CSS/Especificidad
+
+Ejecución de css va en orden excepto si la especificidad es distinta, la de mayor será la que se ejecute
+
+Si utilizamos la etiqueta !important se salta la especificidad
+
+0 0 0 0 
+Orden de la formula de especificidad
+en linea id class o attributos y tags
+
+
+Selectores para css
+id no recomendable
+class con los nombres de clases es con lo que controlaremos los estilos
+El problema de class sería si es html inyectado
+
+Sino se puede manipular el html utilizaremos otros mecanismos de seleccion
+
+Utilizaremos atributos
+https://developer.mozilla.org/es/docs/Web/CSS/Selectores_atributo
+
+Se puede anidar css
+
+

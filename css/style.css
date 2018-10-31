@@ -1,3 +1,46 @@
 iframe.full{
     width: 100%;
 }
+
+h1{
+    color: #a52a2a;
+}
+
+/*  0 0 0 1  (indica la especifidad del elemento)*/
+p{
+    color: blue;
+    font-size: 1.4rem;
+}
+
+/*  0 1 0 0  */
+#p1{
+    color: blueviolet;
+}
+
+/*  0 1 0 1  */
+p#p1{
+    color: blueviolet;
+}
+
+/*  0 0 1 0   */
+.ultimo{
+    color: deeppink;
+}
+
+/*  0 0 1 1   */
+p.ultimo{
+    color: goldenrod;
+}
+
+/*  atributo !important se salta la especifidad pero no se debe usar   */
+p.ultimo{
+    color: goldenrod !important;
+}
+
+/* Programar por atributo */
+/*  0 1 0 0  */
+
+[title] {
+    font-size: 1rem;
+}
+

@@ -1,0 +1,12 @@
+/* Parrafos descendientes de section */
+/* 0 0 0 2 */
+section p {
+    color: green;
+}
+
+/* Parrafos hijos de section */
+/* 0 0 0 2 */
+section>p {
+    color: blue;
+}
+
