@@ -114,3 +114,17 @@ Su posicion es libre aunque se suele ubicar a continuacion de header
 Podemos considerar que es parte del header para html ya que su posicionamiento se puede realizar con css
 
 Aumentar el area incleable
+
+Layout disposicion de elementos
+
+Tiene enfoque fijo o fluido
+Fijo se sabe el tamaño de la pantalla
+Fluida proporcional al espacio
+
+Ahora se dispone de diseños hibridos, que compagina diseño fijo y fluido
+
+Creacion de layout con flex box, modo de display
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
