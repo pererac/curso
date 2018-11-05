@@ -98,3 +98,10 @@ border: 3px ridge #000000;
 
 linea habitual y recomendable de inicio de css
 box-sizing
+
+
+
+Posicionamiento
+RELATIVA --- en función de la posición que ocupa
+
+Absoluta utiliza como referencia el primer elemento padre que tenga un Posicionamiento sino toma de referencia html
