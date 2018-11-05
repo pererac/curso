@@ -22,6 +22,7 @@ header{
     top: 1rem;
     left: 0rem;
     right: 0rem;
+
 }
 
 footer{
@@ -34,4 +35,5 @@ footer{
 header, footer{
     background-color: brown;
     color: rgb(219, 190, 23);
+    z-index: 1;
 }
