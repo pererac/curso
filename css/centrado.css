@@ -1,0 +1,47 @@
+:root {
+    --wbase: 65.8%;
+}
+
+*, *::after, *::before, *:after, *:before { 
+    box-sizing: border-box;
+}
+
+/* html {
+    height: 100%;
+} */
+/* body {
+    
+   height: 100%;
+} */
+
+h1 {
+    text-align: center;
+/*     line-height: 100vh; */
+}
+
+.wrapper {
+    width: var(--wbase);
+   /*  margin-left: calc(calc(100% - var(--wbase))/2);
+    margin-right: calc(calc(100% - var(--wbase))/2); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* margin: 0% 0% 0% 0%; */
+    text-align: left;
+    min-height: 80vh;
+    background-color: bisque;
+    /* padding-top: auto;
+    padding-bottom: auto; */
+
+}
+
+p {
+    width: 40%;
+    padding: 3rem;
+    display: inline-block;
+    border: 1px solid;
+    margin: 0px;
+    margin-right: -4px;
+
+ }

@@ -1,3 +1,9 @@
+/* patron de inicio para css modelo border-box */
+*, *::after, *::before, *:after, *:before{
+    box-sizing: border-box;
+}
+
+
 iframe.full{
     width: 100%;
 }
