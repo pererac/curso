@@ -107,3 +107,10 @@ RELATIVA --- en función de la posición que ocupa
 Absoluta utiliza como referencia el primer elemento padre que tenga un Posicionamiento sino toma de referencia html
 
 z-index indica el orden no el valor
+
+Creacion de menu
+El menu es un nav
+Su posicion es libre aunque se suele ubicar a continuacion de header
+Podemos considerar que es parte del header para html ya que su posicionamiento se puede realizar con css
+
+Aumentar el area incleable
