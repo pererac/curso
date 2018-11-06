@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+      <meta charset="UTF-8">
+      <!--view port para visualizar en el movil-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Siguiente linea de explorer para que en lo posible lo ejecute en la ultima version (edge)-->
+      <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+      <title>Hola Mundo</title>
+      <base href="/">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <script src="./js/desarrollo.js" type="module"></script>
+      <script>
+            console.log("scripts");
+      </script>
+</head>
+
+<body>
+      <div class="container">
+
+
+            <header>
+                  <h1>Título principal
+                        <span>Subtitulo</span>
+                  </h1>
+                  <img src="./assets/AJ_Digital_Camera.svg" alt="Logo">
+                  <!-- <p>Subtitulo</p>-->
+                  <nav id="inicio">
+                        <ol>
+                              <li><a href=#item1">Item 1</a></li>
+                              <li><a href="#item2">Item 2</a></li>
+                              <li><a href="#item3">Item 3</a></li>
+                              <li><a href="#form">Formulario</a></li>
+                              <li><a href="https://www.google.es/">Google 3</a></li>
+                              <li>
+                                    <a href="#news">Novedades HTML5</a>
+                              </li>
+
+                        </ol>
+                  </nav>
+            </header>
+            <main>
+                  <section id="form">
+                        <h2>Ejemplo formulario</h2>
+                        <form id="form1" action="" method="POST">
+                              <fieldset>
+                                    <legend>Datos personales</legend>
+                                    <div>
+                                          <input type="text" name="name" id="name" placeholder="Nombre" required>
+                                    </div>
+                                    <div>
+                                          <input type="password" name="passw" id="passw" placeholder="Contraseña"
+                                                required pattern="expresion regular">
+                                    </div>
+                                    <div>
+                                          <input type="email" name="correo" id="correo" placeholder="Correo" required>
+                                    </div>
+                                    <div>
+                                          <textarea name="info" id="info" cols="30" rows="10" placeholder="información"></textarea>
+                                    </div>
+                              </fieldset>
+
+                              <fieldset>
+                                    <legend>Otros Datos</legend>
+                                    <div>
+                                          <input type="checkbox" name="isOk" id="isOk">
+                                          <label for="isOk"> He leido los datos....</label>
+                                    </div>
+                                    <div>
+                                          <legend>Turnos</legend>
+                                          <input type="radio" name="turno" id="tm" value="tm">
+                                          <label for="tm">Mañana</label>
+                                          <input type="radio" name="turno" id="tt" value="tt">
+                                          <label for="tt">Tarde</label>
+                                    </div>
+                                    <div>
+                                          <label for="destino">Destino</label>
+                                          <select name="destino" id="destino">
+                                                <option value="1">Madrid</option>
+                                                <option value="2">Sevilla</option>
+                                                <option value="3">Valencia</option>
+                                          </select>
+                                    </div>
+                                    <fieldset>
+                                          <legend>Aún más, menos habituales</legend>
+                                          <div><input type="file" name="fichero" id="fichero"></div>
+                                    </fieldset>
+                              </fieldset>
+                              <fieldset>
+                                    <legend>Fechas</legend>
+                                    <div>
+                                          <input type="date" name="dia" id="dia">
+                                    </div>
+                              </fieldset>
+
+                              <!-- <input type="submit" value="EnviarI"> -->
+                              <button type="submit">EnviarB</button>
+                              <button>EnviarB sin submit</button>
+                              <button type="buttom">EnviarB buttom</button>
+
+                        </form>
+                  </section>
+                  <section id="news">
+                        <details>
+                              <summary>Show/Hide me</summary>
+                              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                    egestas.</p>
+                        </details>
+                  </section>
+                  <section id="item1">
+                        <H2>Item 1</H2>
+                        <embed src="./assets/AJ_Digital_Camera.svg">
+                        <article>
+                              <h3>Artile 1</h3>
+                              <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia
+                                    voluptate natus,
+                                    earum quis
+                                    voluptatum? Vel repellat vitae cumque incidunt quidem eum, hic ad repellendus ab
+                                    nesciunt
+                                    veniam
+                                    similique eaque!</p>
+                              <blockquote cite="de donde procede" title="Procedencia">Praesentium neque sunt autem
+                                    commodi
+                                    accusamus
+                                    voluptatibus dolor unde saepe modi dolorum. Doloribus
+                                    debitis eum nam dolorum fuga suscipit nostrum ex at, deserunt, rem illum sit
+                                    beatae, odit
+                                    voluptatum perferendis?</blockquote>
+                              <figure>
+                                    <img src="https://via.placeholder.com/150" alt="imagen simulada">
+                                    <figcaption>Imagen</figcaption>
+
+                              </figure>
+
+                              <p class="ultimo">Doloribus omnis debitis vitae saepe nulla, odio vero voluptas mollitia,
+                                    odit est fugit
+                                    facilis
+                                    accusamus facere non sunt dolor! Veritatis laborum voluptate fugit adipisci
+                                    molestias id
+                                    excepturi
+                                    sequi in quae.</p>
+                        </article>
+                        <article>
+                              <h3>Article 2</h3>
+                              <p>Lorem, ipsum <strong>dolor sit amet</strong> consectetur adipisicing elit. Odit
+                                    corporis
+                                    vitae natus asperiores
+                                    magnam praesentium unde <em>nulla facere exercitationem aut</em> , nemo, veritatis
+                                    voluptates repellendus
+                                    quasi veniam vel soluta ea expedita.</p>
+                              <p>Ratione excepturi beatae illo optio recusandae nemo, in neque, nostrum at dolorum a
+                                    dolore.
+                                    Eius
+                                    voluptatibus soluta <mark> corrupti inventore amet</mark> odit cupiditate maxime
+                                    hic, sed
+                                    alias id libero.
+                                    Dolorem, perferendis.</p>
+                              <p>Eligendi totam, minus nam deleniti sunt blanditiis aspernatur cumque sed aliquam vitae
+                                    consectetur
+                                    necessitatibus rerum eum quae eos iure, odit, maxime unde officiis? Quisquam iure
+                                    quasi
+                                    eligendi
+                                    unde aliquid alias.</p>
+                              <p>Fuga repellat, enim et excepturi optio deleniti sequi perferendis dolores, dolorum
+                                    quaerat
+                                    consequuntur iste quidem aliquid laboriosam quam consequatur aspernatur! Esse
+                                    excepturi
+                                    ratione
+                                    distinctio pariatur quos a repudiandae omnis vero?</p>
+                              <p>Mollitia atque iusto recusandae animi aliquam nam, sint quasi nesciunt facere rerum
+                                    illo
+                                    corrupti
+                                    ullam, reprehenderit cupiditate distinctio quos error dolorum? Provident doloribus
+                                    deleniti
+                                    voluptatibus nulla amet nostrum, fuga corporis.</p>
+                        </article>
+                        <a href="#inicio"></a>
+                  </section>
+                  <section id="item2">
+                        <H2>Item 2</H2>
+                        <svg style="float: right" width="81" height="127" xmlns="http://www.w3.org/2000/svg">
+                              <! - Creado con SVG-edit - http: / /svg-edit.googlecode.com/ ->
+                              <g>
+                                    <title> Árbol simple </title>
+                                    <rect fill="# 7f3f00" stroke="# 000000" stroke-width="0" x="32.26172" y="50.26172"
+                                          width="17" height="77" id="svg_3" />
+                                    <circle fill="# 007f3f" stroke="# 000000" stroke-width="0" cx="40.26172" cy="40.26172"
+                                          r="40.26172" id="svg_1" />
+                              </g>
+                        </svg>
+                        <article>
+                              <h3>Article 1.2</h3>
+                              <video width="400" controls>
+                                    <source src="./assets/video/Ghost_in_the_Shell_Opening.webm" type="video/webm">
+                                    <source src="./assets/video/Ghost_in_the_Shell_Opening.mp4" type="video/mp4">
+                              </video>
+                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At necessitatibus quo,
+                                    corporis
+                                    laborum
+                                    ipsum ipsa consequuntur, adipisci consequatur repellendus fugiat doloremque libero
+                                    aspernatur iste
+                                    excepturi id temporibus. Eius, ab ratione?</p>
+                              <p>Voluptatum saepe eos nobis a, dolores voluptas facere culpa sit numquam quas quis
+                                    aperiam id
+                                    dolore
+                                    hic rem ullam necessitatibus assumenda dolorum! Omnis totam deserunt sunt nesciunt,
+                                    aperiam nam
+                                    ducimus?</p>
+                        </article>
+                        <a href="#inicio"></a>
+                  </section>
+                  <section id="item3">
+                        <H2>Item 3</H2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio esse placeat beatae rerum ab
+                              laborum rem
+                              dolores distinctio, eos ea impedit magni, delectus voluptatibus voluptates velit hic
+                              ipsum
+                              exercitationem sit.</p>
+
+                  </section>
+                  <a href="#inicio"></a>
+
+                  <button type="button" id="mas-info">Más info</button>
+                  <dialog id="my-modal">
+                        <p>It seems that we won't see native dialogs after all.</p>
+                        <button id="ok-btn">OK :(</button>
+                  </dialog>
+                  <template id="my-template">
+                        <p>Esto se hará visible desde código</p>
+                  </template>
+
+
+            </main>
+            <aside>
+
+                  <iframe width="699" height="393" src="https://www.youtube.com/embed/BHge4OwXQ0g" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <h2>Aside 1</h2>
+
+                  <iframe class="full" src="https://www.agenciatributaria.es/" frameborder="1">
+
+                  </iframe>
+                  <p>esto es de <time datetime="2018-10-28" pubdate>ayer</time> Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Placeat autem, neque beatae eius nulla itaque ab nihil fugit harum odio
+                        laboriosam
+                        repellat repudiandae commodi pariatur nobis sunt voluptatum, cumque adipisci?</p>
+            </aside>
+            <footer>
+                  <address>correo@gmail.com</address>
+            </footer>
+      </div>
+</body>
+
+</html>

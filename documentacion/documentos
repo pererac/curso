@@ -1,3 +1,8 @@
+Github
+https://github.com/alce65/atrium
+
+
+
 imagenes responsive 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
@@ -128,3 +133,10 @@ Creacion de layout con flex box, modo de display
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
+
+css_pseudo_classes
+
+aplicar pseudo classes por ejemplo para la posicion de los parrafos
+usar clases sin tener que tenerlo definido en el html
+
+ej. p:
