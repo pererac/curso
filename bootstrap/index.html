@@ -11,6 +11,12 @@
      <SCRIPT:src></SCRIPT:src>
      <script src="../node_modules/jquery/dist/jquery.js"></script>
      <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+             <script>
+            $('#navId a').click(e => {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        </script>
 </head>
 <body>
 
@@ -63,12 +69,7 @@
             <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
         </div>
         
-        <script>
-            $('#navId a').click(e => {
-                e.preventDefault();
-                $(this).tab('show');
-            });
-        </script>
+
 
         <main class="row">
             <section class="col-12">
