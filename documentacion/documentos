@@ -140,3 +140,9 @@ aplicar pseudo classes por ejemplo para la posicion de los parrafos
 usar clases sin tener que tenerlo definido en el html
 
 ej. p:
+
+display grid
+
+Para visualizar usamos Firefox
+F12, Inspeccionar y si nos posicionamos en grid hacemos disposicion
+Se definen los tracks con unidad <i class="fa fa-ra" aria-hidden="true"></i>
