@@ -182,3 +182,26 @@ Se pueden utilizar distintas media querys para el tamaño
 El diseño debe ser responsive y responsable
 
 Libro Responsible Responsive  design
+
+Otra alternativa usar un framework
+Combinación de una forma de pensar y las Herramientas
+Herramientas para trabajar de una determinada manera
+
+Ejemplo de framework para css bootstrap (version 4)
+https://getbootstrap.com/
+
+Crear un proyecto npm y añadir bootstrap
+
+Si ademas se va a usar jquery osea usar css y js
+
+hay que instalar 
+npm install popper.js y popper.jquery
+
+
+
+Sass estilo de bootstrap, se pueden modificar
+
+Ejemplo bootstrap
+columnas 12
+
+
