@@ -149,3 +149,36 @@ Se definen los tracks con unidad <i class="fa fa-ra" aria-hidden="true"></i>
 
 Como hacer responsive un iframe
 https://cybmeta.com/como-hacer-un-iframe-responsive
+
+Diseño responsive
+Libro responsive web design
+
+
+Media Queries
+
+Creacion de diseños diferentes en funcion de la pantalla de presentacion
+Normalmente se aplica en un fichero css aunque también se podría hacer con distintos ficheros
+
+se usa la directiva @media 
+ejemplo
+@media screen and (max-device-)
+
+Se puede plantear la solución empezando de pequeño a grande o viceversa
+
+Desde el punto de vista del diseño es mejor el mobile first
+
+Es muy importante la especificidad 
+
+
+responsive navigation patterns
+http://bradfrost.com/blog/post/responsive-nav-patterns/
+
+complex navigation patterns for responsive design
+http://bradfrost.com/blog/post/complex-navigation-patterns-for-responsive-design/
+
+Se pueden utilizar distintas media querys para el tamaño
+
+
+El diseño debe ser responsive y responsable
+
+Libro Responsible Responsive  design
